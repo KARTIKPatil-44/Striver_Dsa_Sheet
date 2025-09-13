@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class java3b {
+    // Majority element [ > n/2] times[Better using HashMap]
     public static int majorityElement(int[] arr) {
         int n = arr.length;
 
@@ -11,7 +12,7 @@ public class java3b {
         // storing the elements with its occurnce:
         for (int i = 0; i < n; i++) {
             int value = mpp.getOrDefault(arr[i], 0);
-            mpp.put(arr[i], value+1);
+            mpp.put(arr[i], value + 1);
         }
 
         // searching for the majority element:
