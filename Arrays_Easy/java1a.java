@@ -1,5 +1,5 @@
 import java.util.*;
-// argest_element_in_array_BruteForce
+// Largest_element_in_array_BruteForce
 public class java1a {
     public static void main(String[] args) {
         int arr[] = {3, 2, 1, 5, 2};
