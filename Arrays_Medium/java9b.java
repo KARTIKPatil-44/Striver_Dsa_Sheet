@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.*;
 public class java9b {
 
     public static int longestSuccessiveElements(int arr[]) {
